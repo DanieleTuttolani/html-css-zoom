@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/*utilità*/
+.flex{
+display: flex;
+}
+
+
+
+/*generale*/
+body{
+    background-color: black;
+}
+
+.bordo{
+    border: 2px solid white;
+}
+
+
+
+header{
+    height: 50px;
+}
+
+header .head-nav{
+    justify-content: flex-end;
+}
+
+.head-nav span{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
