@@ -91,10 +91,51 @@ header .head-nav{
     height: 100px; 
     background-color: gray;
 }
-
+.footer-body .footer-input{
+    display: flex;
+    align-items: center;
+}
 .footer-body .smaller{
     flex-basis: 15%;
 }
 .footer-body .bigger{
     flex-basis: 70%;
+}
+
+.footer-input i{
+    font-size: 25px;
+}
+.footer-input .microphone , .camera{
+    padding: 10px;
+    text-align: center;
+}
+.footer-input .fa-chevron-up{
+    font-size: 10px;
+    vertical-align: super;
+    padding: 0 5px;
+}
+.footer-share{
+    align-items: center;
+    justify-content: space-evenly
+}
+.footer-share .share i{
+    color: lightgreen;
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+}
+.icons i{
+    font-size: 30px;
+    padding: 10px;
+}
+.icons p{
+    text-align: center;
+}
+
+
+.footer-right p{
+    color: rgb(2, 2, 2);
+    background-color: red;
+    padding: 10px 5px;
+    border-radius: 5px;
 }
