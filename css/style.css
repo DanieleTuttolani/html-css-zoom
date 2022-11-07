@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    color: white;
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
 }
 
@@ -15,6 +17,9 @@
 .flex{
 display: flex;
 }
+.bordo{
+    border: 2px solid white;
+}
 
 
 
@@ -23,9 +28,6 @@ body{
     background-color: black;
 }
 
-.bordo{
-    border: 2px solid white;
-}
 
 
 
@@ -39,7 +41,33 @@ header .head-nav{
 
 .head-nav span{
     background-color: gray;
-    color: white;
     padding: 10px;
     margin-left: 10px;
+}
+
+/*main*/
+.main-body{
+    height: calc(100vh - 150px);
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* FOOTER*/
+.footer-body{
+    height: 100px; 
+    background-color: gray;
+}
+
+.footer-body .smaller{
+    flex-basis: 15%;
+}
+.footer-body .bigger{
+    flex-basis: 70%;
 }
